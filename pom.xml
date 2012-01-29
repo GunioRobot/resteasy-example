@@ -6,7 +6,7 @@
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>resteasy-example Maven Webapp</name>
-  
+
    <repositories>
         <repository>
             <id>maven repo</id>
@@ -20,7 +20,7 @@
             <url>http://repository.jboss.org/nexus/content/groups/public/</url>
         </repository>
     </repositories>
-  
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

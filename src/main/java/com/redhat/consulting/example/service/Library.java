@@ -30,16 +30,16 @@ public class Library
    {
       return getListing();
    }
-   
+
    @GET
    @Path("book/{isbn}")
    @Produces("application/json")
    public Book getBook(@PathParam("isbn") String isbn)
    {
-	   
+
 	   return books.get(isbn);
    }
-   
+
    private BookListing getListing()
    {
       ArrayList<Book> list = new ArrayList<Book>();

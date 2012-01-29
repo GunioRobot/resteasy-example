@@ -23,6 +23,6 @@ public class LibraryApplication extends Application
    @Override
    public Set<Object> getSingletons()
    {
-      return singletons;  
+      return singletons;
    }
 }

@@ -17,7 +17,7 @@ public class Book
       this.ISBN = ISBN;
       this.title = title;
    }
-   
+
    public String getAuthor()
    {
       return author;
@@ -27,7 +27,7 @@ public class Book
    {
       this.author = author;
    }
-   
+
    public String getISBN()
    {
       return ISBN;
@@ -38,7 +38,7 @@ public class Book
       this.ISBN = ISBN;
    }
 
-  
+
    public String getTitle()
    {
       return title;
